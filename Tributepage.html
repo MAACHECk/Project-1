@@ -3,14 +3,77 @@
     <head>
 
     </head>
+    <style>
+        body {
+            background-color:rgb(233, 233, 233);
+            text-align: center;
+        }
+        #title {
+            text-align: center;
+            font-size: 48px;
+            padding-top: 3.125rem;
+        }
+        #img-div {
+            background-color: white;
+            padding: .625rem;
+            margin: .625rem;
+        }
+        #image {
+            width: 50%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: .625px;
+        }
+        #img-caption {
+            padding-left: 13.9rem;
+            padding-right: 13.9rem;
+            font-size: .875rem;
+        }
+        #tribute-info {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #tribute-title {
+            padding-top: 3.125rem;
+        }
+        #tribute-list {
+            text-align: justify; 
+            display: inline-block;
+        }
+        li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        </style>
     <body>
         <div id="main">
             <h1 id="title">Nicolaus Copernicus</h1>
+            <div>
+                <p style="text-align: center; font-size: 18px">Father of modern astronomy</p>
+            </div>
             <div id="img-div">
-                <img src="images/nicolaus_copernicus.jpg" alt="Portrait of Nicolaus Copernicus" width="200" height="200" id="image">
+                <img src="images/nicolaus_copernicus.jpg" alt="Portrait of Nicolaus Copernicus" id="image">
                 <p id="img-caption"><em>Nicolaus Copernicus was a mathmatician and astronomer who proposed that the sun was stationary in the center of the universe and the earth revolved around it.</em></p>
             </div>
-            <div></div>
+            <div id="tribute-info">
+                <h2 id="tribute-title">Here's a time line of Nicolaus Copernicus:</h2>
+                <ul id="tribute-list">
+                    <li><b>1473</b> - Born in Torun, Royal Prussia, Poland</li>
+                    <li><b>1484</b> - Copernicus's father dies</li>
+                    <li><b>1491-1503</b> - Copernicus studies at various universities in Poland and Italy</li>
+                    <li><b>1510</b> - Moves to Frombork, Poland</li>
+                    <li><b>1514</b> - Copernicus circulates his <em>Little Commentary</em>, introducing his heliocentric model</li>
+                    <li><b>1520</b> - The Teutonic Knights raze Frombork; Copernicus and the other canons work to rebuild the town</li>
+                    <li><b>1532</b> - Copernicus completes <em>On the Revolutions of the Celestial Spheres</em> but waits before publishing it</li>
+                    <li><b>1543</b> - Dies in Frombork at age 70, shortly after publication of <em>On the Revolutions of the Celestial Spheres</em></li>
+                </ul>
+            </div>
+            <div id="tribute-link">
+                <p><a href="https://en.wikipedia.org/wiki/Nicolaus_Copernicus" alt="Wikipedia Page for Nicolaus Copernicus" target="_blank"><b>Learn more about Nicolaus Copernicus</b></a></p>
+            </div>
         
         </div>
     </body>
